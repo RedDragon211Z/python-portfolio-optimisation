@@ -95,7 +95,7 @@ The project produces several visualisations:
 - Seaborn
 - yfinance
 - Git / GitHub
-- 
+  
 **Project Structure**
 python-portfolio-optimisation/
 │
@@ -117,7 +117,7 @@ The project is separated into modules to keep data collection, portfolio calcula
 - Install the required dependencies: pip install -r requirements.txt
 
 - Run the main program: python main.py
-- 
+  
 ****Key Skills Demonstrated**:**
   
 - Financial data analysis
