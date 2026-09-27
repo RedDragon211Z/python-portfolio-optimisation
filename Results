@@ -1,8 +1,8 @@
-## Results
+**Results
 
 The Monte Carlo simulation generated 10,000 possible portfolio allocations and evaluated each based on expected annual return, volatility and Sharpe ratio.
 
-### Individual Asset Performance
+**Individual Asset Performance
 
 | Asset | Annual Return | Annual Volatility |
 | ----- | ------------: | ----------------: |
@@ -16,7 +16,7 @@ The Monte Carlo simulation generated 10,000 possible portfolio allocations and e
 | NVDA  |       104.52% |            53.18% |
 | SPY   |        17.37% |            20.75% |
 
-### Portfolio Results
+**Portfolio Results
 
 | Portfolio                    | Expected Annual Return | Annual Volatility | Sharpe Ratio |
 | ---------------------------- | ---------------------: | ----------------: | -----------: |
@@ -24,7 +24,7 @@ The Monte Carlo simulation generated 10,000 possible portfolio allocations and e
 | Maximum Sharpe Portfolio     |                 69.17% |            36.64% |         1.89 |
 | Minimum Volatility Portfolio |                 24.64% |            23.68% |            — |
 
-### Maximum Sharpe Ratio Allocation
+**Maximum Sharpe Ratio Allocation
 
 | Asset | Weight |
 | ----- | -----: |
@@ -38,7 +38,7 @@ The Monte Carlo simulation generated 10,000 possible portfolio allocations and e
 | NVDA  |  7.87% |
 | SPY   | 18.67% |
 
-### Minimum Volatility Allocation
+**Minimum Volatility Allocation
 
 | Asset | Weight |
 | ----- | -----: |
