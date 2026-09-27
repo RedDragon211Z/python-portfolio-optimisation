@@ -29,6 +29,12 @@ annual_volatilities = annual_volatility(returns)
 
 annual_covariances = annual_covariance(returns)
 
+for ticker in tickers:
+    print(
+        f"{ticker}: "
+        f"Return = {annual_returns[ticker]:.2%}, "
+        f"Volatility = {annual_volatilities[ticker]:.2%}"
+    )
 
 # Plot individual stock analysis
 plot_normalised_prices(
@@ -37,8 +43,8 @@ plot_normalised_prices(
 )
 
 plot_risk_return(
-    annual_returns,
     annual_volatilities,
+    annual_returns,
     tickers
 )
 
@@ -48,6 +54,7 @@ plot_correlation_matrix(
 
 
 # Calculate your manually chosen portfolio
+
 portfolio_return, portfolio_volatility = portfolio_statistics(
     INITIAL_WEIGHTS,
     annual_returns,
@@ -70,6 +77,7 @@ portfolio_returns, portfolio_volatilities, portfolio_weights = monte_carlo_simul
 # Calculate Sharpe ratios
 sharpe_ratios = portfolio_returns / portfolio_volatilities
 
+print(f"\nMaximum Sharpe Ratio: {max(sharpe_ratios):.2f}")
 
 # Find maximum Sharpe portfolio
 best_portfolio_number = np.argmax(sharpe_ratios)
@@ -149,3 +157,4 @@ plot_efficient_frontier(
     efficient_volatilities,
     efficient_returns
 )
+
