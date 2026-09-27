@@ -20,9 +20,9 @@ The Monte Carlo simulation generated 10,000 possible portfolio allocations and e
 
 | Portfolio                    | Expected Annual Return | Annual Volatility | Sharpe Ratio |
 | ---------------------------- | ---------------------: | ----------------: | -----------: |
-| Chosen Portfolio             |                 42.09% |            28.64% |            — |
+| Chosen Portfolio             |                 42.09% |            28.64% |         1.47 |
 | Maximum Sharpe Portfolio     |                 69.17% |            36.64% |         1.89 |
-| Minimum Volatility Portfolio |                 24.64% |            23.68% |            — |
+| Minimum Volatility Portfolio |                 24.64% |            23.68% |         1.04 |
 
 **Maximum Sharpe Ratio Allocation**
 
