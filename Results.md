@@ -51,3 +51,4 @@ The Monte Carlo simulation generated 10,000 possible portfolio allocations and e
 | JPM   |  1.16% |
 | NVDA  | 41.50% |
 | SPY   |  0.36% |
+
