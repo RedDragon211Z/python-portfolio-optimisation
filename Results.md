@@ -52,9 +52,3 @@ The Monte Carlo simulation generated 10,000 possible portfolio allocations and e
 | NVDA  | 41.50% |
 | SPY   |  0.36% |
 
-![Normalised Stock Prices](results/Normalised Stock Prices.png)
-![Risk vs Return](results/Risk vs Return.png)
-![Correlation Matrix](results/Correlation Matrix.png)
-![Monte Carlo Simulation](results/Monte Carlo Simulation.png)
-![Efficient Frontier](results/Efficient Frontier.png)
-
